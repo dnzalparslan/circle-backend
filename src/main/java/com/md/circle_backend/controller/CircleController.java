@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/circle")
-@CrossOrigin(origins = "http://localhost:5173")
 public class CircleController {
 
     private final CircleStateService stateService;
